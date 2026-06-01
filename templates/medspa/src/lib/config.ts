@@ -2,162 +2,61 @@ import type { SiteConfig } from "@core/web/types"
 
 export const config: SiteConfig = {
   business: {
-  city: "Tracy",
-  theme: "slate",
-  niche: "medspa",
-  name: "Lumière Med Spa",
-  tagline: "Where Science Meets Beauty.",
-  phone: "(555) 456-7890",
-  phoneHref: "tel:+15554567890",
-  email: "hello@lumieremedspa.com",
-  address: "Tracy, California",
-  serviceAreas: ["Tracy", "Stockton", "Manteca", "Mountain House", "Dublin", "Pleasanton"],
-  license: "CA MED #98765",
-  since: "2015",
-  google_rating: "5.0",
-  review_count: "234",
-  emergency: false,
-  social: {
-    google: "https://google.com",
-    yelp: "https://yelp.com",
-    facebook: "https://facebook.com",
+    name: "Alani Skin MD",
+    tagline: "Look Your Best, Feel Amazing",
+    phone: "(480) 993-2218",
+    phoneHref: "tel:+14809932218",
+    email: "info@alaniskinmd.com",
+    address: "123 Main St",
+    city: "Gilbert",
+    serviceAreas: ["Gilbert/Mesa, AZ", "Scottsdale, AZ", "Avondale, AZ", "Anthem, AZ"],
+    license: "AZ Medical Board Licensed",
+    since: "2010",
+    google_rating: "4.9",
+    review_count: "200",
+    emergency: false,
+    theme: "noir",
+    niche: "medspa",
   },
-},
 
   services: [
-  {
-    icon: "sparkles",
-    title: "Botox & Fillers",
-    desc: "Natural-looking wrinkle reduction and volume restoration. Board-certified injectors. Results you'll love.",
-    urgent: false,
-  },
-  {
-    icon: "zap",
-    title: "Laser Hair Removal",
-    desc: "Permanent hair reduction on all skin types. 6-session packages with dramatic, lasting results.",
-    urgent: false,
-  },
-  {
-    icon: "droplets",
-    title: "HydraFacial",
-    desc: "Deep cleanse, extract, and hydrate in 30 minutes. Instant glow. Zero downtime. A client favorite.",
-    urgent: false,
-  },
-  {
-    icon: "sun",
-    title: "Chemical Peels",
-    desc: "Resurface and renew with medical-grade peels. Treat acne, hyperpigmentation, and fine lines.",
-    urgent: false,
-  },
-  {
-    icon: "activity",
-    title: "Microneedling",
-    desc: "Stimulate collagen naturally. Treats scars, texture, and signs of aging. PRP add-on available.",
-    urgent: false,
-  },
-  {
-    icon: "star",
-    title: "Body Contouring",
-    desc: "Non-surgical fat reduction and skin tightening. Sculpt your silhouette without surgery or downtime.",
-    urgent: false,
-  },
-],
+    { icon: "sparkles", title: "Wrinkle Care & Botox", desc: "Smooth away fine lines and wrinkles for a refreshed, youthful appearance.", urgent: false },
+    { icon: "heart", title: "Weight Loss & HRT", desc: "Personalized programs for sustainable weight loss and hormone balance.", urgent: false },
+    { icon: "droplets", title: "Plump & Contour Injectables", desc: "Restore volume and enhance facial contours with expert injectable treatments.", urgent: false },
+    { icon: "scissors", title: "Hair Removal & Treatment", desc: "Achieve silky smooth skin with advanced laser hair removal solutions.", urgent: false },
+    { icon: "star", title: "Facials & Skin Rejuvenation", desc: "Revitalize your complexion with custom facials and advanced skin treatments.", urgent: false },
+    { icon: "zap", title: "Lasers & Light Therapies", desc: "Target specific skin concerns with cutting-edge laser and light-based treatments.", urgent: false }
+  ],
 
   testimonials: [
-  {
-    name: "Amanda W.",
-    location: "Tracy, CA",
-    stars: 5,
-    text: "My Botox looks so natural — exactly what I wanted. The injector took so much time to understand my goals. I've been coming back every 4 months for 2 years.",
-  },
-  {
-    name: "Priya K.",
-    location: "Stockton, CA",
-    stars: 5,
-    text: "Laser hair removal changed my life. After 6 sessions, I'm basically hair-free. The staff made me feel comfortable the entire time.",
-  },
-  {
-    name: "Rachel D.",
-    location: "Dublin, CA",
-    stars: 5,
-    text: "Monthly HydraFacials have completely transformed my skin. I get compliments constantly. Worth every single penny.",
-  },
-],
+    { name: "Sarah L.", location: "Scottsdale, AZ", stars: 5, text: "I had a fantastic experience with Alani Skin MD for my Botox. The staff was incredibly professional and made me feel comfortable throughout the entire process. My results are natural and I look years younger! Highly recommend their expertise." },
+    { name: "Mark T.", location: "Gilbert, AZ", stars: 5, text: "The GLP-1 weight loss program at Alani Skin MD has been life-changing. I've lost 20 pounds in 3 months and feel healthier than ever. The team provided excellent support and guidance every step of the way. Truly grateful for their personalized approach." },
+    { name: "Jessica R.", location: "Mesa, AZ", stars: 5, text: "My skin has never looked better since I started getting regular facials and laser treatments here. The estheticians are knowledgeable and truly care about achieving the best results. The Hydrafacial left my skin glowing for weeks!" }
+  ],
 
   trustBadges: [
-  "Board-Certified Providers",
-  "FDA-Approved Treatments",
-  "Medical-Grade Products",
-  "Free Consultations",
-  "Financing Available",
-  "5-Star Rated on Google",
-],
+    "Board-Certified Practitioners", "Personalized Treatment Plans", "Multiple AZ Locations", "Membership Programs Available", "15% Off First Treatment", "Referral Rewards"
+  ],
 
   stats: [
-  {
-    "value": 5,
-    "label": "Google Rating",
-    "suffix": "★",
-    "decimals": 1
-  },
-  {
-    "value": 1170,
-    "label": "Jobs Done",
-    "suffix": "+",
-    "decimals": 0
-  },
-  {
-    "value": 11,
-    "label": "Yrs Experience",
-    "suffix": "+",
-    "decimals": 0
-  }
-],
+    { value: 4.9, label: "Google Rating", suffix: "★", decimals: 1 },
+    { value: 10, label: "Years Experience", suffix: "+", decimals: 0 },
+    { value: 5000, label: "Happy Clients", suffix: "+", decimals: 0 }
+  ],
 
   reasons: [
-  {
-    "icon": "clock",
-    "title": "Fast Response",
-    "desc": "Same-day service when you need it. We don't keep customers waiting."
-  },
-  {
-    "icon": "dollar-sign",
-    "title": "Upfront Pricing",
-    "desc": "Quote before work starts. The number we say is the number you pay."
-  },
-  {
-    "icon": "award",
-    "title": "Certified Professionals",
-    "desc": "Licensed, insured, and trained. Real expertise on every job."
-  },
-  {
-    "icon": "thumbs-up",
-    "title": "Satisfaction Guarantee",
-    "desc": "100% happy or we come back and make it right. No questions asked."
-  },
-  {
-    "icon": "phone",
-    "title": "AI Reception 24/7",
-    "desc": "AI concierge books treatments, answers service questions, and collects reviews via call, text, or WhatsApp. Available 24/7, never a wait."
-  },
-  {
-    "icon": "truck",
-    "title": "Fully Equipped",
-    "desc": "Trucks stocked with everything needed. First-visit completion rate above 90%."
-  }
-],
+    { icon: "award", title: "Expert Practitioners", desc: "Our team consists of highly trained and certified medical professionals." },
+    { icon: "heart", title: "Personalized Care", desc: "We tailor every treatment plan to your unique needs and aesthetic goals." },
+    { icon: "home", title: "Multiple Locations", desc: "Conveniently located across Arizona for easy access to our services." },
+    { icon: "dollar-sign", title: "Transparent Pricing", desc: "Clear, upfront pricing with no hidden fees, and membership options." },
+    { icon: "sparkles", title: "Cutting-Edge Technology", desc: "Utilizing the latest advancements in aesthetic and wellness treatments." },
+    { icon: "thumbs-up", title: "Client Satisfaction", desc: "Dedicated to achieving exceptional results and ensuring your happiness." }
+  ],
 
-  formServiceOptions: [
-  "Botox & Fillers",
-  "Laser Hair Removal",
-  "HydraFacial",
-  "Chemical Peels",
-  "Microneedling",
-  "Body Contouring"
-],
+  formServiceOptions: ["Wrinkle Care & Botox", "Weight Loss & HRT", "Plump & Contour Injectables", "Hair Removal & Treatment", "Facials & Skin Rejuvenation", "Lasers & Light Therapies"]
 }
 
-// Backward compat re-exports
+// Backward-compat re-exports
 export const BUSINESS = config.business
 export const SERVICES = config.services!
 export const TESTIMONIALS = config.testimonials!
