@@ -7,9 +7,9 @@ export const config: SiteConfig = {
     phone: "(480) 993-2218",
     phoneHref: "tel:+14809932218",
     email: "info@alaniskinmd.com",
-    address: "123 Main St",
-    city: "Gilbert",
-    serviceAreas: ["Gilbert/Mesa, AZ", "Scottsdale, AZ", "Avondale, AZ", "Anthem, AZ"],
+    address: "1727 E Baseline Rd #103",
+    city: "Mesa",
+    serviceAreas: ["Mesa", "Anthem", "Gilbert", "Scottsdale", "Avondale"],
     license: "AZ Medical Board Licensed",
     since: "2010",
     google_rating: "4.9",
@@ -20,40 +20,40 @@ export const config: SiteConfig = {
   },
 
   services: [
-    { icon: "sparkles", title: "Wrinkle Care & Botox", desc: "Smooth away fine lines and wrinkles for a refreshed, youthful appearance.", urgent: false },
-    { icon: "heart", title: "Weight Loss & HRT", desc: "Personalized programs for sustainable weight loss and hormone balance.", urgent: false },
-    { icon: "droplets", title: "Plump & Contour Injectables", desc: "Restore volume and enhance facial contours with expert injectable treatments.", urgent: false },
-    { icon: "scissors", title: "Hair Removal & Treatment", desc: "Achieve silky smooth skin with advanced laser hair removal solutions.", urgent: false },
-    { icon: "star", title: "Facials & Skin Rejuvenation", desc: "Revitalize your complexion with custom facials and advanced skin treatments.", urgent: false },
-    { icon: "zap", title: "Lasers & Light Therapies", desc: "Target specific skin concerns with cutting-edge laser and light-based treatments.", urgent: false }
+    { icon: "sparkles", title: "Wrinkle Care & Botox", desc: "Smooth away fine lines and wrinkles for a refreshed, youthful appearance with expert Botox treatments.", urgent: false },
+    { icon: "heart", title: "Weight Loss & Body Sculpting", desc: "Achieve your ideal physique with personalized weight loss programs, HRTs, and advanced body sculpting solutions.", urgent: false },
+    { icon: "droplets", title: "Plump & Contour Injectables", desc: "Restore volume and enhance your natural contours with our premium dermal fillers and injectables.", urgent: false },
+    { icon: "scissors", title: "Hair Removal", desc: "Experience long-lasting smoothness with our effective and comfortable laser hair removal treatments.", urgent: false },
+    { icon: "star", title: "Facials & Skin Treatments", desc: "Rejuvenate your skin with custom facials, chemical peels, and advanced treatments for a healthy glow.", urgent: false },
+    { icon: "zap", title: "Lasers & Lights", desc: "Improve skin tone, texture, and clarity with our state-of-the-art laser and light-based therapies.", urgent: false }
   ],
 
   testimonials: [
-    { name: "Sarah L.", location: "Scottsdale, AZ", stars: 5, text: "I had a fantastic experience with Alani Skin MD for my Botox. The staff was incredibly professional and made me feel comfortable throughout the entire process. My results are natural and I look years younger! Highly recommend their expertise." },
-    { name: "Mark T.", location: "Gilbert, AZ", stars: 5, text: "The GLP-1 weight loss program at Alani Skin MD has been life-changing. I've lost 20 pounds in 3 months and feel healthier than ever. The team provided excellent support and guidance every step of the way. Truly grateful for their personalized approach." },
-    { name: "Jessica R.", location: "Mesa, AZ", stars: 5, text: "My skin has never looked better since I started getting regular facials and laser treatments here. The estheticians are knowledgeable and truly care about achieving the best results. The Hydrafacial left my skin glowing for weeks!" }
+    { name: "Sarah L.", location: "Scottsdale", stars: 5, text: "I had my first Botox treatment at Alani Skin MD, and I'm thrilled with the results! The staff was incredibly friendly and professional, explaining everything clearly. My forehead lines are significantly smoother, and I feel so much more confident. Definitely coming back for more!" },
+    { name: "Mark T.", location: "Gilbert", stars: 5, text: "The GLP-1 weight loss program here has been a game-changer for me. I've struggled with my weight for years, and this is the first time I've seen real, sustainable progress. The team is supportive and knowledgeable. Highly recommend for anyone looking for effective weight management." },
+    { name: "Jessica R.", location: "Mesa", stars: 5, text: "I got lip fillers for the first time, and I couldn't be happier! My lips look naturally plump and beautiful, not overdone. The injector was so skilled and made me feel completely at ease. Alani Skin MD truly delivers amazing results and a wonderful experience." }
   ],
 
   trustBadges: [
-    "Board-Certified Practitioners", "Personalized Treatment Plans", "Multiple AZ Locations", "Membership Programs Available", "15% Off First Treatment", "Referral Rewards"
+    "AZ Medical Board Licensed", "Best Med Spa 2026", "15% Off First Treatment", "Referral Program: Give $50, Get $50", "GLP-1 Weight Loss Injections", "Memberships Available"
   ],
 
   stats: [
     { value: 4.9, label: "Google Rating", suffix: "★", decimals: 1 },
     { value: 10, label: "Years Experience", suffix: "+", decimals: 0 },
-    { value: 5000, label: "Happy Clients", suffix: "+", decimals: 0 }
+    { value: 5, label: "Locations Served", suffix: "+", decimals: 0 }
   ],
 
   reasons: [
-    { icon: "award", title: "Expert Practitioners", desc: "Our team consists of highly trained and certified medical professionals." },
-    { icon: "heart", title: "Personalized Care", desc: "We tailor every treatment plan to your unique needs and aesthetic goals." },
-    { icon: "home", title: "Multiple Locations", desc: "Conveniently located across Arizona for easy access to our services." },
-    { icon: "dollar-sign", title: "Transparent Pricing", desc: "Clear, upfront pricing with no hidden fees, and membership options." },
-    { icon: "sparkles", title: "Cutting-Edge Technology", desc: "Utilizing the latest advancements in aesthetic and wellness treatments." },
-    { icon: "thumbs-up", title: "Client Satisfaction", desc: "Dedicated to achieving exceptional results and ensuring your happiness." }
+    { icon: "award", title: "Award-Winning Care", desc: "Named 'Best Med Spa' in 2026, ensuring top-tier service and results." },
+    { icon: "dollar-sign", title: "Exclusive Savings", desc: "Enjoy 15% off your first treatment and a generous referral program." },
+    { icon: "home", title: "Multiple Locations", desc: "Conveniently located across Mesa, Scottsdale, Gilbert, Avondale, and Anthem." },
+    { icon: "shield-check", title: "Certified Professionals", desc: "Our team consists of highly trained and licensed medical aesthetic experts." },
+    { icon: "heart", title: "Personalized Plans", desc: "Tailored treatments designed to meet your unique aesthetic goals and needs." },
+    { icon: "thumbs-up", title: "Satisfaction Guaranteed", desc: "We are committed to delivering exceptional results and a positive experience." }
   ],
 
-  formServiceOptions: ["Wrinkle Care & Botox", "Weight Loss & HRT", "Plump & Contour Injectables", "Hair Removal & Treatment", "Facials & Skin Rejuvenation", "Lasers & Light Therapies"]
+  formServiceOptions: ["Wrinkle Care & Botox", "Weight Loss & Body Sculpting", "Plump & Contour Injectables", "Hair Removal", "Facials & Skin Treatments", "Lasers & Lights", "Consultations"]
 }
 
 // Backward-compat re-exports
